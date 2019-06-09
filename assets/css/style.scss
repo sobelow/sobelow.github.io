@@ -1,0 +1,33 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+@media only screen and (min-width: 960px) {
+    .wrapper {
+        margin: 0;
+
+        > header {
+            position: relative; 
+        }
+
+        > section {
+            float: left; 
+            width: 550px;
+        }
+    }
+}
+
+a {
+    color: #3273dc;
+}
+
+pre.highlight {
+    font-size: 11px;
+}
+
+p code {
+    font-size: 12px;
+}
+
