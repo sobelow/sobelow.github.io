@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
 title: Sobelow
+logo: /assets/img/logo.png
 description: Security-focused static analysis for the Phoenix Framework.
 author: Griffin Byatt
