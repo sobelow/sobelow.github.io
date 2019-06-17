@@ -27,6 +27,13 @@
 
         {{ content }}  
 
+        <h2>Changelog</h2>
+        {% for post in site.posts %}
+        <div class="update">
+          {{ post.content }}    
+        </div>  
+        {% endfor %}
+
       </section>
       <footer>
       </footer>
